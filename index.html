@@ -225,9 +225,8 @@
   </div>
 
   <form id="surveyForm"
-        action="https://formspree.io/f/xqeyzbbn"
-        method="POST"
-        enctype="multipart/form-data">
+        action="https://script.google.com/macros/s/AKfycbxR_gZfRzIF_AJLBeIQTaxiJyQYzc2dEEGbqKj6E4wdm-c50kqLpp4soGOjl0QHOD2Y/exec"
+        method="POST">
 
     <!-- Part 1 -->
     <section>
@@ -426,8 +425,8 @@
 </div>
 
 <script>
-  document.getElementById('surveyForm').addEventListener('submit', function(e) {
-    e.preventDefault();
+  // document.getElementById('surveyForm').addEventListener('submit', function(e) {
+  //   e.preventDefault();
 
     // 可选：简单前端校验（例如必填项）
     if (!document.querySelector('textarea[name="prove_shame"]').value.trim()) {
@@ -486,4 +485,5 @@
 </script>
 
 </body>
+
 </html>
